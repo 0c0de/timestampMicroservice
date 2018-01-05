@@ -2,7 +2,7 @@ const express = require('express');
 
 let app = express();
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT;
 
 app.get('/', (Request,Response) => {
     Response.send("Hello World");
