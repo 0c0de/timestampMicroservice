@@ -1,0 +1,19 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Just a timestamp microservice for learning purposes and as a challenge of freecodecamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timestamp",
+    "microservice",
+    "freecodecamp"
+  ],
+  "author": "Jose Luis Fernandez Mateo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
