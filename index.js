@@ -1,11 +1,12 @@
 const express = require('express');
+const path = require('path');
 
 let app = express();
 
 var PORT = process.env.PORT || 3000;
 var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 app.get('/', (Request,Response) => {
-    Response.send("This is root");
+    Response.sendFile(path.join(__dirname+'/index.html'));
 });
 
 app.get('/:date', (Request,Response) => {
